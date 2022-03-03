@@ -12,6 +12,11 @@ body{
   top:50%;
   margin:-150px;
   cursor: pointer;
+  transition: transform .3s;
+}
+
+.planet:hover {
+  transform: scale(1.2);
 }
 
 .planet .mask{
@@ -57,7 +62,13 @@ body{
   top:50%;
   margin:-150px;
   cursor: pointer;
+  transition: transform .3s;
 }
+
+.planet-2:hover {
+  transform: scale(1.2);
+}
+
 
 .planet-2 .mask-2{
   width:100%;
@@ -68,7 +79,6 @@ body{
 }
 .planet-2 .background-2{
   animation: translateBackground2 40s infinite linear;  
-  /* background:url(https://astrogeology.usgs.gov/cache/images/c0f4f36dd1195526c305dc881ce5a4dd_Mercury_MESSENGER_MDIS_Basemap_MD3Color_Mosaic_Global_1024.jpg) repeat-x; */
   background:url('../resources/venusmap.jpg') repeat-x;
   width:300px;
   height:300px;
